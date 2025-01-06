@@ -1,0 +1,37 @@
+{
+	"name": "potenzaglobalsolutions/cardealer-export-vehicle",
+	"description": "Car Dealer - Export Vehicle",
+	"homepage": "http://www.potenzaglobalsolutions.com/",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0+",
+	"authors": [
+		{
+			"name": "Dinesh Kesharwani",
+			"email": "dinesh.kesarwani@potenzaglobalsolutions.com",
+			"homepage": "https://gitlab.com/dinesh4monto/cardealer"
+		}
+	],
+	"require": {
+		"php": ">=7.4"
+	},
+	"require-dev": {
+		"wptrt/wpthemereview": "^0.2.1",
+		"phpcompatibility/phpcompatibility-wp": "^2.1.4",
+		"dealerdirect/phpcodesniffer-composer-installer": "^1.0.0",
+		"roave/security-advisories": "dev-master"
+	},
+	"scripts": {
+		"phpcs-i": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs -i",
+		"lint": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcs",
+		"format": "@php ./vendor/squizlabs/php_codesniffer/bin/phpcbf"
+	},
+	"support": {
+		"issues": "https://gitlab.com/dinesh4monto/cardealer/issues",
+		"source": "https://gitlab.com/dinesh4monto/cardealer/"
+	},
+	"config": {
+		"allow-plugins": {
+			"dealerdirect/phpcodesniffer-composer-installer": true
+		}
+	}
+}

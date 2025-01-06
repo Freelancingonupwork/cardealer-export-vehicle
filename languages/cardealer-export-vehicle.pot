@@ -1,0 +1,277 @@
+# Copyright (C) {2022} Potenza Global Solutions
+msgid ""
+msgstr ""
+"Project-Id-Version: Car Dealer - Export Vehicle 1.1.0\n"
+"Report-Msgid-Bugs-To: "
+"https://wordpress.org/support/plugin/cardealer-export-vehicle\n"
+"POT-Creation-Date: 2022-11-08 12:17:47+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-11-08 12:17:46+0000\n"
+"Last-Translator: Potenza Global Solutions "
+"http://www.potenzaglobalsolutions.com/\n"
+"Language-Team: Potenza Global Solutions "
+"http://www.potenzaglobalsolutions.com/\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPathExcluded-0: .vscode\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+"X-Poedit-SearchPathExcluded-2: vendor-lib\n"
+"X-Poedit-SearchPathExcluded-3: includes/cpts/cores\n"
+"X-Poedit-SearchPathExcluded-4: node_modules\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: cardealer-export-vehicle.php:41
+msgid "Export Vehicle"
+msgstr ""
+
+#: cardealer-export-vehicle.php:43
+msgid "Click this button to open export vehicle with third party export section."
+msgstr ""
+
+#: cardealer-export-vehicle.php:58
+msgid "Export Vehicle List"
+msgstr ""
+
+#: cardealer-export-vehicle.php:60
+msgid "Click this button to open export vehicle list section."
+msgstr ""
+
+#: cardealer-export-vehicle.php:75
+msgid "Export Vehicle Log"
+msgstr ""
+
+#: cardealer-export-vehicle.php:77
+msgid "Click this button to open export vehicle log section."
+msgstr ""
+
+#: cardealer-export-vehicle.php:107
+msgid "Export Vehicle Detail"
+msgstr ""
+
+#: cardealer-export-vehicle.php:137
+msgid "AutoTrader.com Export Settings"
+msgstr ""
+
+#: cardealer-export-vehicle.php:138
+msgid "AutoTrader.com details to export vehicle data."
+msgstr ""
+
+#: cardealer-export-vehicle.php:144 cardealer-export-vehicle.php:186
+msgid "Dealer Id"
+msgstr ""
+
+#: cardealer-export-vehicle.php:145 cardealer-export-vehicle.php:187
+msgid "Enter Dealer Id."
+msgstr ""
+
+#: cardealer-export-vehicle.php:150 cardealer-export-vehicle.php:192
+msgid "FTP Host"
+msgstr ""
+
+#: cardealer-export-vehicle.php:151 cardealer-export-vehicle.php:193
+msgid "Enter FTP HostName."
+msgstr ""
+
+#: cardealer-export-vehicle.php:156 cardealer-export-vehicle.php:198
+msgid "FTP Username"
+msgstr ""
+
+#: cardealer-export-vehicle.php:157 cardealer-export-vehicle.php:199
+msgid "Enter FTP Username."
+msgstr ""
+
+#: cardealer-export-vehicle.php:162 cardealer-export-vehicle.php:204
+msgid "FTP Password"
+msgstr ""
+
+#: cardealer-export-vehicle.php:163 cardealer-export-vehicle.php:205
+msgid "Enter FTP Password."
+msgstr ""
+
+#: cardealer-export-vehicle.php:168 cardealer-export-vehicle.php:210
+msgid "Location"
+msgstr ""
+
+#: cardealer-export-vehicle.php:169 cardealer-export-vehicle.php:211
+msgid "Enter Location for exported file to store on server."
+msgstr ""
+
+#: cardealer-export-vehicle.php:179
+msgid "Cars.com Export Settings"
+msgstr ""
+
+#: cardealer-export-vehicle.php:180
+msgid "Cars.com details to export vehicle data."
+msgstr ""
+
+#: inc/cpts/export-log.php:17 inc/cpts/export-log.php:18
+#: inc/export_log/export_log.php:36 inc/export_log/export_log.php:37
+msgid "Export Log"
+msgstr ""
+
+#: inc/export.php:17 inc/export.php:34 inc/export.php:35
+msgid "Export"
+msgstr ""
+
+#: inc/export.php:18 inc/export.php:36 inc/export.php:37
+msgid "Export To AutoTrader.Com"
+msgstr ""
+
+#: inc/export.php:19 inc/export.php:38 inc/export.php:39
+msgid "Export To Cars.Com"
+msgstr ""
+
+#: inc/export.php:302
+msgid "Error! Please set attributes to export from admin in theme settings."
+msgstr ""
+
+#: inc/export.php:306
+msgid "Success! Vehicle data successfully exported!"
+msgstr ""
+
+#: inc/export.php:310
+msgid "Error! Failed to export file."
+msgstr ""
+
+#: inc/export.php:314
+msgid "Error! FTP Connection attempt failed!"
+msgstr ""
+
+#: inc/export.php:318
+msgid "Error! FTP Details and Dealer Id fields should not be empty in theme option."
+msgstr ""
+
+#: inc/export.php:322
+msgid "Error! Please provide correct path to send exported file."
+msgstr ""
+
+#: inc/export.php:326
+msgid ""
+"Error! Sounds like your PHP was not installed with \"--enable-ftp\" or that "
+"the ftp module is disabled in your php.ini. Please ask your hosting "
+"provider to enable ftp module on your server."
+msgstr ""
+
+#: inc/export.php:330
+msgid ""
+"Alert! No records exported, this is because of no record satisfied desired "
+"rules of selected third party export."
+msgstr ""
+
+#: inc/export.php:334
+msgid ""
+"Alert! Inventory successfully exported and export file successfully "
+"generated. But you can not send exported file to Auto Trader as you do not "
+"have set theme option settings for Auto Trader."
+msgstr ""
+
+#: inc/export.php:338
+msgid ""
+"Alert! Inventory successfully exported and export file successfully "
+"generated. But you can not send exported file to Cars.Com as you do not "
+"have set theme option settings for Cars.Com."
+msgstr ""
+
+#: inc/export.php:345
+msgid "Dismiss this notice."
+msgstr ""
+
+#: inc/export_log/car_export_list.php:47
+msgid "Vehicles Export List"
+msgstr ""
+
+#: inc/export_log/car_export_list.php:52
+msgid "Vehicle"
+msgstr ""
+
+#: inc/export_log/car_export_list.php:53
+msgid "AutoTrader"
+msgstr ""
+
+#: inc/export_log/car_export_list.php:54 inc/export_thirdparty.php:744
+#: inc/export_thirdparty.php:953 inc/inventory-list-column.php:24
+msgid "Cars.com"
+msgstr ""
+
+#: inc/export_log/export_log.php:66
+msgid "Vehicles Export Log List"
+msgstr ""
+
+#: inc/export_log/export_log.php:70
+msgid "File Name"
+msgstr ""
+
+#: inc/export_log/export_log.php:71
+msgid "Export To"
+msgstr ""
+
+#: inc/export_log/export_log.php:72
+msgid "FTP Done"
+msgstr ""
+
+#: inc/export_log/export_log.php:73
+msgid "FTP Done On"
+msgstr ""
+
+#: inc/export_log/export_log.php:74
+msgid "Created"
+msgstr ""
+
+#: inc/export_log/export_log.php:75
+msgid "Action"
+msgstr ""
+
+#: inc/export_log/export_log.php:138
+msgid "Resend FTP"
+msgstr ""
+
+#: inc/export_log/export_log.php:138
+msgid "Send FTP"
+msgstr ""
+
+#: inc/export_thirdparty.php:155 inc/export_thirdparty.php:388
+#: inc/export_thirdparty.php:712 inc/export_thirdparty.php:921
+msgid "True"
+msgstr ""
+
+#: inc/export_thirdparty.php:155 inc/export_thirdparty.php:388
+#: inc/export_thirdparty.php:712 inc/export_thirdparty.php:921
+msgid "False"
+msgstr ""
+
+#: inc/export_thirdparty.php:175 inc/export_thirdparty.php:188
+#: inc/export_thirdparty.php:408 inc/export_thirdparty.php:421
+#: inc/inventory-list-column.php:23
+msgid "Auto Trader"
+msgstr ""
+
+#: inc/export_thirdparty.php:732 inc/export_thirdparty.php:941
+msgid "Car.com"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Car Dealer - Export Vehicle"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.potenzaglobalsolutions.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "This plugin contains export vehicle functionality for \"Car Dealer\" theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Potenza Global Solutions"
+msgstr ""
